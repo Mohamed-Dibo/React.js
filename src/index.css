@@ -1,0 +1,102 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("background.jpeg");
+  background-size: cover;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.App {
+  background-color: #607d8b;
+  text-align: center;
+  margin: 50px auto;
+  min-height: 280px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  padding: 30px;
+}
+@media (max-width: 1366px) {
+  .App {
+    width: 400px;
+  }
+}
+@media (max-width: 1125px) {
+  .App {
+    width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .App {
+    width: 250px;
+  }
+}
+h1 {
+  text-align: center;
+  color: #fff;
+}
+.App h3 {
+  color: #fff;
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Form input[type="text"] {
+  margin-bottom: 10px;
+  padding: 7px;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #15475f;
+  font-size: 1.1rem;
+  color: #777;
+}
+.Form input[type="text"]:focus {
+  outline: 0;
+}
+.Form button {
+  width: calc(100% + 13px);
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  background-color: #15475f;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.Status {
+  text-align: left;
+  color: #fff;
+}
+.Status p {
+  font-style: italic;
+  font-size: 15px;
+}
+.Status p span {
+  color: #15475f;
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
